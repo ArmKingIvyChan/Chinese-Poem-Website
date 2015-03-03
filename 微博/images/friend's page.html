@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+.background {
+	position: absolute;
+	width: 800px;
+	height: 1000px;
+	left: 200px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.background .header {
+	position: relative;
+	width: 800px;
+	height: 150px;
+	left: 0px;
+	top: 0px;
+	border-bottom-style: dashed;
+	border-bottom-width: thin;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.background .profile {
+	position: relative;
+	height: 200px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.background .profile #avatar {
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+.background .profile .profiletext {
+	position: absolute;
+	left: 200px;
+	width: 590px;
+	height: 180px;
+	top: 10px;
+}
+.background .profile .profiletext table tr td #add_attention {
+	position: absolute;
+	left: 475px;
+	top: 139px;
+	width: 87px;
+	height: 29px;
+}
+.background .content {
+	position: relative;
+	height: 400px;
+	border: thin dashed #CCC;
+}
+.background .content .poem1 {
+	position: relative;
+	height: 150px;
+	width: 800px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.background .content .poem1 img {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.background .content .poem1 .author {
+	position: relative;
+	width: 120px;
+	left: 70px;
+	top: -40px;
+}
+.background .content .poem1 .poem1_content {
+	position: relative;
+	height: 100px;
+}
+#box4 {
+	position: fixed;
+	width: 500px;
+	height: 200px;
+	left: 350px;
+	top: 200px;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#box4 #comment_form {
+	position: relative;
+	width: 450px;
+	left: 20px;
+	top: 20px;
+	height: 160px;
+}
+#box4 #comment_form table {
+	position: relative;
+	height: 160px;
+}
+#box4 #comment_form table tr td #comment_submit {
+	position: relative;
+	width: 100px;
+	height: 30px;
+	left: 40px;
+}
+#box4 #comment_form table tr td #comment_inputarea {
+	position: relative;
+	left: 20px;
+	width: 400px;
+	height: 100px;
+}
+.background .content .poem1 #form1 {
+	position: relative;
+	height: 150px;
+}
+.background .content .poem1 #form1 table {
+}
+.background .content .poem1 #form1 table {
+	height: 150px;
+}
+.background .footer {
+	position: relative;
+	height: 100px;
+	width: 800px;
+}
+</style>
+
+<script type="text/javascript">
+//===========================点击展开关闭效果====================================
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+var openTip = oOpenTip || "";
+var shutTip = oShutTip || "";
+	if(targetObj.style.display!="none"){
+	   if(shutAble) return;
+			targetObj.style.display="none";
+	   if(openTip && shutTip){
+			sourceObj.innerHTML = shutTip;
+	   }
+	} 
+	else {
+	   targetObj.style.display="block";
+	   if(openTip && shutTip){
+			sourceObj.innerHTML = openTip;
+	   }
+	}
+}
+</script>
+</head>
+
+<body>
+<div class="background">
+  <div class="header"><img src="" alt="" name="logo" width="250" height="150" id="logo" /></div>
+  <div class="profile"><img src="" alt="" name="avatar" width="180" height="180" id="avatar" />
+    <form class="profiletext">
+    <table width="100%" height="179" border="0" cellpadding="3" cellspacing="3">
+      <tr>
+        <td width="37%"><div align="right">昵称：</div></td>
+        <td width="63%">xx</td>
+        </tr>
+      <tr>
+        <td><div align="right">地区：</div></td>
+        <td>xx</td>
+        </tr>
+      <tr>
+        <td><div align="right">简介：</div></td>
+        <td>xx</td>
+        </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="add_attention" id="add_attention" value="加关注" /></td>
+        </tr>
+    </table>
+    </form>
+  </div>
+  <div class="category"></div>
+  <div class="content"> 
+  
+<!--这里开始复制微博框-->
+    <div class="poem1">
+        <form id="form1" name="form1" method="post" action="">
+          <table width="800" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+              <td height="25" colspan="4"><u>title</u></td>
+            </tr>
+            <tr>
+              <td height="90" colspan="4" valign="top"><em>I hate softwareworkshop!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</em></td>
+            </tr>
+            <tr>
+              <td width="662" height="25">&nbsp;</td>
+              <td width="45" align="right" valign="bottom"><a href="#" onclick="openShutManager(this,'box4',false,'转发','转发')">转发</a></td>
+              <td width="42" align="right" valign="bottom"><a href="#" onclick="openShutManager(this,'box4',false,'评论','评论')">评论</a></td>
+              <td width="27" align="right" valign="bottom">&nbsp;</td>
+            </tr>
+          </table>
+        </form>
+    </div>
+<!--没了，再加微博框就在下面一行复制上面的代码就好啦-->
+
+    
+    
+  </div>
+  <div class="footer">footer~~</div>
+  <div align="center"></div>
+</div>
+<div id="box4" style="display:none; background-color:#FFF ">
+      <form id="comment_form" name="comment_form" method="post" action="">
+      <table width="450" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="114" colspan="2"><label for="comment_inputarea"></label>
+          <textarea name="comment_inputarea" id="comment_inputarea" cols="45" rows="5" ></textarea></td>
+        </tr>
+      <tr>
+        <td width="297">&nbsp;</td>
+        <td width="153"><input type="submit" name="comment_submit" id="comment_submit" value="发送" /></td>
+      </tr>
+      </table>
+      </form>
+</div>
+
+
+</body>
+</html>

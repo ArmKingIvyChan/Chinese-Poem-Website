@@ -1,0 +1,104 @@
+/* CSS Document */
+body{
+	padding:0 0 20px 0; margin:0; font-family:Tahoma, Arial, Helvetica, sans-serif;
+	}
+div, h1, h2, h3, p, ul, img{
+	padding:0; margin:0;
+	}
+ul{
+	list-style-type:none;
+	}
+.spacer{
+	font-size:0; line-height:0; clear:both;
+	}
+img{
+	display:block;
+	}
+/*--------------------------header part start---------------*/
+#header{
+	background:url(images/header_pci.gif) no-repeat 0 0 #666666; color:#CCCCCC; height:467px; border-bottom:#FFFFFF 1px solid;
+	width:778px; margin:0 auto; padding:41px 0 0 0;
+	}
+#header img.logo{
+	margin:0; padding:0; width:268px;
+	}
+#header ul{
+	background-color:#333333; height:31px; margin:374px 0 0 0; padding:0 0 0 28px; color:#ccc;
+	}
+#header ul li{
+	float:left; display:block; line-height:31px; font-weight:bold; font-size:11px; padding:0 6px;
+	}
+#header ul li a{
+	text-decoration:none; color:#CCCCCC; text-transform:capitalize; background-color:#333;
+	}
+#header ul li a:hover, #header ul li.active{
+	color:#FFE771; background-color:#333;
+	}
+/*-----------------------body---------------*/
+#body{
+	width:704px; background:url(images/body_pic.gif) no-repeat 100% 99% #666666; color:#CCCCCC;
+	margin:0 auto; padding:31px 37px 42px;
+	}
+#welcome{
+	background:url(images/welcome_pic.gif) no-repeat 535px 27px; border-bottom:#999999 1px solid; padding:0 30px 0 0 ;
+	}
+#welcome h2{
+	background:url(images/welcome.gif) no-repeat 0 0; height:61px; width:297px; display:block; font-size:0; line-height:0;
+	text-indent:-2000px; margin:0 0 15px 0;
+	}
+#welcome p{
+	font-size:11px; padding:0 0 18px 0; line-height:15px;
+	}
+#welcome p.text{
+	margin:0 179px 0 0;
+	}
+#body h2.profile{
+	background:url(images/profile.gif) no-repeat 0 0; height:54px; width:178px; display:block; margin:17px 0 10px 0;
+	text-indent:-2000px;
+	}
+#body ul.gallery{
+	height:104px; background:url(images/gallery_bg.gif) repeat-x 0 0; padding:8px 0 0 10px;
+	}
+#body ul.gallery li{
+	background-color:#999999; padding:0 8px 0 0; color:#FFFFFF; float:left;
+	}
+#body ul.gallery li.nopadding{
+	padding:0;
+	}
+#body ul.num{
+	height:14px; border-bottom:#999999 1px solid; padding:0 0 5px 508px; margin:0 0 45px 0;
+	}
+#body ul.num li{
+	float:left; display:block; padding:0 2px; font-size:11px; line-height:14px; color:#9D9D9D; background-color:#666666;
+	font-weight:bold;
+	}
+#body ul.num li a{
+	color:#9D9D9D; background-color:#666666; text-decoration:none; 
+	}
+#body ul.num li a:hover{
+	color:#FFFFFF; background-color:#666;
+	}
+#body ul.footer{
+	font-size:0; height:18px; margin:0 0 8px 0;
+	}
+#body ul.footer li{
+	float:left; display:block; line-height:18px; font-weight:bold; font-size:11px; padding:0 6px;
+	}
+#body ul.footer li a{
+	text-decoration:none; color:#CCC; text-transform:capitalize; background-color:#666;
+	}
+#body ul.footer li a:hover, #body ul li.active{
+	text-decoration:underline;
+	}
+#body p.footertex{
+	font-size:9px; line-height:14px; margin:0 0 5px 0;
+	}
+#body p.footertex a{
+	text-decoration:none; color:#B3B3B3; background-color:#666666;
+	}
+#body p.footertex a:hover{
+	color:#FFFFFF; background-color:#666666;
+	}
+#black{
+	width:778px; border-top:#FFFFFF 1px solid; height:37px; margin:0 auto; background-color:#333333; color:#FFFFFF;
+	}

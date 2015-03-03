@@ -1,0 +1,731 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<style type="text/css">
+.background {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	width: 1017px;
+	height: 1169px;
+	background-image: url(../images/其他背景.JPG);
+	background-repeat: no-repeat;
+}
+.background .header {
+	position: absolute;
+	left: -3px;
+	top: 4px;
+	width: 728px;
+	height: 150px;
+}
+.leftside {
+	position: absolute;
+	left: 0px;
+	top: 155px;
+	width: 232px;
+	height: 1019px;
+	border: thin solid #993;
+}
+.tittle {
+	position: absolute;
+	left: 450px;
+	top: 216px;
+	width: 805px;
+	height: 200px;
+	border: thin solid #993;
+}
+.poem {
+	position: absolute;
+	left: 450px;
+	top: 430px;
+	width: 805px;
+	height: 786px;
+	border: thin solid #9DAA50;
+}
+.interest {
+	position: absolute;
+	left: 17px;
+	top: 420px;
+	width: 200px;
+	height: 324px;
+	border: thin solid #CCC;
+	color: #099;
+}
+body {
+	background-image: url(images/首页背景.jpg);
+	position: absolute;
+}
+.background .header .leftside .avatar {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	left: 36px;
+	top: 28px;
+}
+.background .header .leftside .avatar {
+	background-repeat: no-repeat;
+	background-image: url(2.jpg);
+}
+
+.background .header .leftside table {
+	position: absolute;
+	width: 200px;
+	height: 64px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: normal;
+	line-height: normal;
+}
+.comment_area {
+	position: absolute;
+	left: 444px;
+	top: 207px;
+	width: 764px;
+	height: 1022px;
+	border: thin solid #993;
+}
+.comment_area .comment_list {
+	position: relative;
+	height: 150px;
+	border: thin dashed #993;
+}
+.comment_area .comment_list #commentor_avatar {
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+.comment_area .comment_list table {
+	position: absolute;
+	left: 70px;
+	top: 10px;
+	height: 139px;
+}
+.background .header .leftside #form1 {
+	position: absolute;
+	width: 222px;
+	left: 10px;
+	top: 111px;
+	height: 107px;
+}
+.background .header .leftside #form1 table {
+	position: absolute;
+	border: thin solid #9CB847;
+	font-family: Verdana, Geneva, sans-serif;
+	top: 2px;
+}
+.background .header .leftside #form2 {
+	position: absolute;
+	width: 269px;
+	height: 238px;
+	left: -39px;
+	top: 6px;
+}
+.background .header .leftside #form2 table {
+	position: absolute;
+}
+#nav_container5 { width:145px; margin-left:30px; margin-top:30px; float:left; }
+#nav_container5 li { padding:0px; margin-bottom:1px; }
+#nav_container5 { margin-left:30px; }
+#nav_container5 a:link, #nav_container5 a:visited, #nav_container5 a:active { width:145px; height:30px; padding-top:5px; padding-left:50px; border-bottom:1px solid #777; display:block; text-decoration:none; text-align:left; font-weight:bold; color:#333; text-indent:-300px; overflow:hidden; }
+#nav_container5 a:hover { color:#000; }
+#nav_home { background-image: url(images/bg7.gif); background-position: 0px 0px; }
+#nav_home:hover { background-image: url(images/bg7.gif); background-position: 0px -45px; }
+#nav_about { background-image: url(images/bg8.gif); background-position: 0px 0px; }
+#nav_about:hover { background-image: url(images/bg8.gif); background-position: 0px -45px; }
+#nav_port { background-image: url(images/bg9.gif); background-position: 0px 0px; }
+#nav_port:hover { background-image: url(images/bg9.gif); background-position: 0px -45px; }
+#nav_con { background-image: url(images/bg10.gif); background-position: 0px 0px; }
+#nav_con:hover { background-image: url(images/bg10.gif); background-position: 0px -45px; }
+#nav_con1 { background-image: url(images/bg11.gif); background-position: 0px 0px; }
+#nav_con1:hover { background-image: url(images/bg11.gif); background-position: 0px -45px; }
+#templatemo_menu {
+	clear: both;
+	width: 940px;
+	height: 60px;
+	padding-left: 40px;
+	background: url(images/templatemo_menu_bar_bg.jpg) top left no-repeat;
+}
+
+
+#templatemo_menu ul {
+	padding: 12px 0 0 0;
+	margin: 0px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	display: block;
+	height: 23px;
+	padding: 5px 15px 0 15px;
+	margin-right: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #ffffff;	
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	position: relative;
+	background: url(images/templatemo_menu_hover_right.jpg) right center no-repeat;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#templatemo_menu li a:hover span, #templatemo_menu li .current span{
+	position: absolute;
+	width: 5px;
+	height: 28px;
+	top: 0px;
+	left: 0px;
+	background: url(images/templatemo_menu_hover_left.jpg) no-repeat;
+}
+
+#templatemo_menu li .last{
+	border-right: none;
+}
+
+.tittle #form3 {
+	position: relative;
+	width: 775px;
+	height: 397px;
+	left: 9px;
+	top: 8px;
+}
+.tittle #form3 #tittle {
+	position: absolute;
+	left: 58px;
+	top: 14px;
+	width: 187px;
+	height: 31px;
+}
+.tittle #form3 p #poem {
+	position: absolute;
+	width: 710px;
+	height: 174px;
+	left: 55px;
+	top: 124px;
+}
+.tittle #form3 table {
+	position: absolute;
+	left: 462px;
+	top: 91px;
+	width: 303px;
+}
+.tittle #form3 table tr th {
+	font-size: 14;
+}
+.tittle #form3 p img {
+	position: absolute;
+	left: 125px;
+	top: 288px;
+}
+.tittle #form3 p #confirm {
+	position: absolute;
+	left: 671px;
+	top: 349px;
+	width: 88px;
+	height: 31px;
+}
+.interest table {
+	position: absolute;
+	height: 334px;
+	width: 224px;
+}
+.background .header .leftside .interest {
+	position: absolute;
+}
+.background .header .leftside .interest table {
+	position: relative;
+}
+#FlashID {
+	position: absolute;
+	width: 1510px;
+	height: 1221px;
+	top: 4px;
+	left: -6px;
+}
+.backgroundflash {
+	position: static;
+	height: 1500px;
+	width: 1500px;
+	left: -300px;
+}
+.background .header .leftside #form1 table tr td p {
+	color: #FFF;
+}
+.background .header .leftside #form1 table tr td p {
+	font-size: large;
+}
+.background .header .leftside table tr th {
+	color: #000;
+}
+.background .header .leftside table tr td#area {
+	color: #000;
+}
+.logo {
+	position: absolute;
+}
+.tittle #form3 p {
+	color: #FFF;
+}
+/*---------------------弹出框结束-----------------*/
+.tittle table {
+	position: relative;
+	left: 50px;
+	top: 10px;
+	width: 700px;
+	height: 160px;
+	color: #999933;
+	margin-bottom: 5px;
+}
+.tittle table tr td #poem_title {
+	position: relative;
+	height: 30px;
+	width: 200px;
+	left: 10px;
+}
+.tittle table tr td {
+	font-size: 18px;
+	color: #FFF;
+}
+.tittle table tr td #poem_content {
+	position: relative;
+	left: 10px;
+	top: 0px;
+	width: 500px;
+	height: 70px;
+}
+.poem .poem1 table {
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #993;
+	border-bottom-color: #993;
+}
+.tittle table tr td #publish_submit {
+	position: relative;
+	width: 80px;
+	height: 30px;
+	background-color: #9DAA50;
+	color: #FFF;
+	font-family: "华文行楷";
+	font-size: 18px;
+	overflow: visible;
+}
+.add_comments#add_comments{
+	position: fixed;
+	height: 280px;
+	width: 440px;
+	left: 600px;
+	top: 250px;
+	background-color: #FFF;
+}
+.add_comments#add_comments .header{
+	position: relative;
+	width: 440px;
+	height: 30px;
+	font-family: "华文隶书";
+	font-size: 18px;
+	background-color: #9DAA50;
+}
+.add_comments#add_comments .header tr td #close_button{
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 395px;
+	background-color: #999933;
+	border: thin solid #FFF;
+	color: #FFF;
+	top: 5px;
+	text-align: right;
+	vertical-align: middle;
+}
+.add_comments #form3 {
+	height: 230px;
+	background-color: #FFF;
+	position: absolute;
+	width: 440px;
+}
+.add_comments #form3 .comment_main {
+	position: absolute;
+	left: 12px;
+	width: 420px;
+	height: 192px;
+	top: 12px;
+}
+.add_comments .header tr td {
+	color: #FFF;
+}
+.add_comments #form3 .comment_main tr td #comment_textarea {
+	width: 400px;
+	position: relative;
+	left: 10px;
+	height: 50px;
+	top: 10px;
+}
+.add_comments #form3 .comment_main tr td #comment_submit_button {
+	height: 30px;
+	width: 60px;
+	background-color: #993;
+	color: #FFF;
+	font-family: "华文行楷";
+	font-size: large;
+	border: thin solid #CCC;
+}
+.background .header .leftside .interest #interest_title {
+	position: relative;
+}
+.background .header .leftside .interest #interest_list_area {
+	position: relative;
+	height: 200px;
+}
+.background .header .leftside .interest #interest_title tr td {
+	color: #FFF;
+	font-family: "华文行楷";
+	font-size: large;
+}
+.poem .poem1 {
+	margin-top: 5px;
+}
+#add_comments #repost_area {
+	position: relative;
+	height: 250px;
+}
+#add_comments #repost_area table {
+	position: absolute;
+	width: 440px;
+	left: 0px;
+	top: 0px;
+	height: 220px;
+}
+#add_comments #repost_area table tr td #repost {
+	width: 70px;
+	height: 40px;
+}
+#add_comments #repost_area table tr td #repost {
+	position: relative;
+	width: 70px;
+	left: -10px;
+	top: -3px;
+	background-color: #9DAA50;
+	color: #FFF;
+	font-family: "华文行楷";
+	font-size: 24px;
+}
+#add_comments #repost_area table tr td #repost_comment_area {
+	position: relative;
+	width: 300px;
+	height: 50px;
+}
+.background .header .leftside #form1 #information_area {
+	position: relative;
+	left: 10px;
+}
+.background .header .leftside #information_area_1 {
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+#collection_success {
+	position: fixed;
+	height: 120px;
+	width: 300px;
+	background-color: #FFF;
+	left: 600px;
+	top: 250px;
+}
+#collection_success table tr td #close_collection_success {
+	height: 40px;
+	width: 70px;
+	background-color: #9DAA50;
+	font-family: "华文行楷";
+	color: #FFF;
+	font-size: 24px;
+}
+
+
+#add_comments #repost_area {
+	position: relative;
+	height: 250px;
+}
+#add_comments #repost_area table {
+	position: absolute;
+	width: 440px;
+	left: 0px;
+	top: 0px;
+	height: 220px;
+}
+#add_comments #repost_area table tr td #repost {
+	width: 70px;
+	height: 40px;
+}
+#add_comments #repost_area table tr td #repost {
+	position: relative;
+	width: 70px;
+	left: -10px;
+	top: -3px;
+	background-color: #9DAA50;
+	color: #FFF;
+	font-family: "华文行楷";
+	font-size: 24px;
+}
+#add_comments #repost_area table tr td #repost_comment_area {
+	position: relative;
+	width: 300px;
+	height: 50px;
+}
+.poem .repost {
+	position: relative;
+	margin-top: 5px;
+	width: 805px;
+	height: 230px;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: dashed;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-top-color: #9DAA50;
+	border-right-color: #9DAA50;
+	border-bottom-color: #9DAA50;
+	border-left-color: #9DAA50;
+}
+.poem .repost #repost_table {
+	position: relative;
+	height: 100px;
+}
+.poem .repost #repost_table tr td .original {
+	height: 110px;
+}
+.poem .repost #repost_table tr td .original {
+	position: relative;
+	width: 600px;
+	left: 66px;
+	border: thin solid #9DAA50;
+}
+.poem table.nextpage {
+	position: absolute;
+}
+.poem table tr th #form3 #nextpage {
+	position: absolute;
+	left: 732px;
+	top: 755px;
+	height: 31px;
+	width: 66px;
+}
+</style>
+<script type="text/javascript">
+//===========================点击展开关闭效果====================================
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+var openTip = oOpenTip || "";
+var shutTip = oShutTip || "";
+	if(targetObj.style.display!="none"){
+	   if(shutAble) return;
+			targetObj.style.display="none";
+	   if(openTip && shutTip){
+			sourceObj.innerHTML = shutTip;
+	   }
+	} 
+	else {
+	   targetObj.style.display="block";
+	   if(openTip && shutTip){
+			sourceObj.innerHTML = openTip;
+	   }
+	}
+}
+//===============================没了================================================
+</script><script>
+roller.init('nav_container5','v',0,-45,80,15);
+</script>
+<script>
+function msover(){
+{event.srcElement.style.color="black";event.srcElement.style.backgroundColor="#C9D291";event.srcElement.style.cursor = "auto";}}
+function msout(){{event.srcElement.style.color="white";event.srcElement.style.backgroundColor="#9DAA50";event.srcElement.style.cursor = "hand";}}
+</script>
+
+</head>
+
+<body>
+<div class="background">
+  <div class="header">
+    <div class="leftside">
+      <form id="form2" name="form2" method="post" action="">
+        <div id="nav_container5">
+  <ul>
+     <a id="nav_home" href="#">我的诗集</a>
+     <a id="nav_about" href="#">@到我的作品</a>
+     <a id="nav_port" href="#">品赏楼</a> 
+     <a id="nav_con" href="#">密信</a> 
+     <a id="nav_con1" href="#">藏文阁</a>
+  </ul>
+        </div>
+      </form>
+    </div>
+  <img src="../images/title语荷.png" width="756" height="151" /> </div>
+</div>
+<div class="comment_area">
+  <div class="comment_list"><img src="" alt="" name="commentor_avatar" width="50" height="50" id="commentor_avatar" /><table width="470" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="272" height="79" valign="top">&nbsp;</td>
+  </tr>
+</table>
+</div>
+ <div class="comment_list"><img src="" alt="" name="commentor_avatar" width="50" height="50" id="commentor_avatar" /><table width="470" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="272" height="79" valign="top">&nbsp;</td>
+  </tr>
+</table>
+</div>
+ <div class="comment_list"><img src="" alt="" name="commentor_avatar" width="50" height="50" id="commentor_avatar" /><table width="470" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="272" height="79" valign="top">&nbsp;</td>
+  </tr>
+</table>
+</div>
+ <div class="comment_list"><img src="" alt="" name="commentor_avatar" width="50" height="50" id="commentor_avatar" /><table width="470" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="272" height="79" valign="top">&nbsp;</td>
+  </tr>
+</table>
+</div>
+  
+  
+</div>
+<!--转发小框框-->
+<div id="add_comments"  class="add_comments" style="display:none">
+<table class="header" width="100" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="94" bgcolor="#9DAA50">&nbsp;共赏美文</td>
+    <td width="300" bgcolor="#9DAA50">&nbsp;</td>
+    <td width="46" align="center"  valign="top" bgcolor="#9DAA50"><input type="submit" name="close_button" id="close_button" value="关闭&nbsp;" onmouseover="msover();" onmouseout="msout();" onclick="openShutManager(this,'add_comments',false,'关闭','关闭');"/></td>
+  </tr>
+</table>
+
+<form id="repost_area" name="repost_area" method="post" action="">
+  <table width="520" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="17">&nbsp;</td>
+      <td width="84" align="right" valign="top">转发人：</td>
+      <td width="62">&nbsp;</td>
+      <td width="41">&nbsp;</td>
+      <td width="38">&nbsp;</td>
+      <td width="100">&nbsp;</td>
+      <td width="98">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">评论：</td>
+      <td colspan="5" rowspan="3" valign="top"><label for="repost"></label>
+        <label for="repost_comment_area"></label>
+        <textarea name="repost_comment_area" id="repost_comment_area"></textarea></td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">原文：</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">标题：</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">原作者：</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">内容：</td>
+      <td colspan="5" rowspan="3" valign="top">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="right" valign="top">发布时间：</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td rowspan="2" align="right" valign="top"><input type="submit" name="repost" id="repost" value="提交" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      </tr>
+  </table>
+</form>
+</div>
+<!--转发小框框没了-->
+
+
+<div id="collection_success" style="display:none">
+  <table width="300" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="2" rowspan="2" align="center" valign="bottom">收藏成功！</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="64">&nbsp;</td>
+      <td colspan="2" align="center"><input type="submit" name="close_collection_success" id="close_collection_success" onclick="openShutManager(this,'collection_success',false,'关闭','关闭');" value="关闭" /></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

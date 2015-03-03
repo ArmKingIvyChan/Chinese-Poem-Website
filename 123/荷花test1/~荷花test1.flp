@@ -1,0 +1,8 @@
+﻿<flash_project name="~荷花test1" version="1">
+	<project_file path="./~荷花test1.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./mx/transitions/OnEnterFrameBeacon.as" filetype="as"/>
+	<project_file path="./mx/transitions/BroadcasterMX.as" filetype="as"/>
+	<project_file path="./mx/transitions/Tween.as" filetype="as"/>
+	<project_file path="./mx/transitions/easing/Strong.as" filetype="as"/>
+	<project_file path="./mx/transitions/easing/Regular.as" filetype="as"/>
+</flash_project>
